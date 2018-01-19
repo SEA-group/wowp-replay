@@ -1,0 +1,182 @@
+<engine_config.xml>
+  <personality>BWPersonality</personality>
+  <appTitle>World of Warplanes</appTitle>
+  <dumpResMods> true  </dumpResMods>
+  <shouldReadXMLAttributes> true  </shouldReadXMLAttributes>
+  <shouldWriteXMLAttributes>  false </shouldWriteXMLAttributes>
+  <preferences>preferences.xml<pathBase>RES_TREE</pathBase></preferences>
+  <clientWindow>
+    <width> 1024  </width>
+    <height>  768 </height>
+  </clientWindow>
+  <renderer>
+    <cacheEffects>  true  </cacheEffects>
+    <gammaCorrectionOutside>1.0</gammaCorrectionOutside>
+    <gammaCorrectionInside>1.0</gammaCorrectionInside>
+    <gammaCorrectionSpeed>0.2</gammaCorrectionSpeed>
+    <maxFrameRateLoading> 30  </maxFrameRateLoading>
+    <maxFrameRateInactive>  5 </maxFrameRateInactive>
+    <maxFrameRateReduced> 60  </maxFrameRateReduced>
+    <maxFrameRate>  0 </maxFrameRate>
+    <settings>
+      <effect>shaders/hammer/aircraft.fx</effect>
+      <effect>shaders/post_processing/uv_compress.fx</effect>
+    </settings>
+    <enableUmbra> false </enableUmbra>
+    <useLatentOcclusionQueries> false </useLatentOcclusionQueries>
+    <forceSoftwareOcclusion>  false </forceSoftwareOcclusion>
+  </renderer>
+  <animation>
+    <streamCacheSizeKB> 2048  </streamCacheSizeKB>
+  </animation>
+  <screenShot>
+    <path>./World of Warplanes<pathBase>MY_PICTURES</pathBase></path>
+    <extension>jpg</extension>
+    <name>  shot  </name>
+  </screenShot>
+  <replay>
+    <path>.<pathBase>MY_VIDEOS</pathBase></path>
+    <MinCompatibleClientVersion>2.0.3.0</MinCompatibleClientVersion>
+  </replay>
+  <supersampledShot>
+    <path>./World of Warplanes<pathBase>MY_PICTURES</pathBase></path>
+    <extension>png</extension>
+    <name>sshot</name>
+    <quality> 8 </quality>
+  </supersampledShot>
+  <superShot>
+    <hRes>  2048  </hRes>
+    <farPlaneDist>  800 </farPlaneDist>
+    <floraVBSize> 16000000  </floraVBSize>
+    <disableGUI>  true  </disableGUI>
+    <wmode> 1 </wmode>
+  </superShot>
+  <watermark>
+    <enable>  true  </enable>
+  </watermark>
+  <accessMonitor> false </accessMonitor>
+  <hasDevelopmentAssertions>  true  </hasDevelopmentAssertions>
+  <debugKeys>
+    <combination>
+      <key> APPS  </key>
+    </combination>
+    <combination>
+      <key>GRAVE</key>
+    </combination>
+  </debugKeys>
+  <entities>
+    <disablePreloads> false </disablePreloads>
+    <enforcePreloads> false </enforcePreloads>
+    <entityCollision> true  </entityCollision>
+    <particlesActive> true  </particlesActive>
+    <movementThreshold>0.25</movementThreshold>
+  </entities>
+  <ui>
+    <straferate>30.0</straferate>
+    <loadingText>151 231 233</loadingText>
+  </ui>
+  <camera>
+    <lookTable>0.00    0.00</lookTable>
+    <lookTable>0.10    0.05</lookTable>
+    <lookTable>0.30    0.10</lookTable>
+    <lookTable>0.50    0.15</lookTable>
+    <lookTable>0.70    0.30</lookTable>
+    <lookTable>0.90    1.00</lookTable>
+    <lookAxisMin>0.10</lookAxisMin>
+    <lookAxisMax>0.91</lookAxisMax>
+    <cameraYawSpeed>  90  </cameraYawSpeed>
+    <cameraPitchSpeed>  60  </cameraPitchSpeed>
+    <accelerateStart>0.00</accelerateStart>
+    <accelerateRate>2.00</accelerateRate>
+    <accelerateEnd>1.00</accelerateEnd>
+  </camera>
+  <directionCursor>
+    <invertVerticalMovement>  false </invertVerticalMovement>
+    <mouseSensitivity>0.005</mouseSensitivity>
+    <mouseHVBias>0.667</mouseHVBias>
+    <maxPitch>87.0</maxPitch>
+    <minPitch>-87.0</minPitch>
+    <yaw>0.000</yaw>
+    <pitch>0.000</pitch>
+    <lookSpring>  false </lookSpring>
+    <lookSpringRate>0.75</lookSpringRate>
+    <lookSpringIdleTime>3600.0</lookSpringIdleTime>
+    <lookSpringOnMove>  true  </lookSpringOnMove>
+  </directionCursor>
+  <simpleGui>
+    <breakOnLeak> false </breakOnLeak>
+    <breakOnAllocId>  0 </breakOnAllocId>
+  </simpleGui>
+  <debug>
+    <enableModificationMonitor> false </enableModificationMonitor>
+    <checkFileCase> false </checkFileCase>
+    <framesCount> 0 </framesCount>
+    <enableServers> false </enableServers>
+    <profilerBufferSize>  25165824  </profilerBufferSize>
+    <enableLoggingAssetMsg> false </enableLoggingAssetMsg>
+    <assetLogPath>asset.log</assetLogPath>
+    <logDayLimit> 60  </logDayLimit>
+    <defaultPrintLevel> 2 </defaultPrintLevel>
+    <fulldump>  false </fulldump>
+  </debug>
+  <soundMgr>
+    <mediaPath>audio</mediaPath>
+    <maxPools>  128 </maxPools>
+    <defaultPoolSizeMb> 6 </defaultPoolSizeMb>
+    <lowerEnginePoolSizeMb> 8 </lowerEnginePoolSizeMb>
+    <commandQueueSizePow2>  3 </commandQueueSizePow2>
+    <lowerEngineThreshold>0.75</lowerEngineThreshold>
+    <errorLevel>silent</errorLevel>
+    <quality> high  </quality>
+    <muteOnFocusLost> true  </muteOnFocusLost>
+  </soundMgr>
+  <Web>
+    <textureMemoryLimitLow> 524288  </textureMemoryLimitLow>
+    <textureMemoryLimitMedium>  1048576 </textureMemoryLimitMedium>
+    <textureMemoryLimitHigh>  4194304 </textureMemoryLimitHigh>
+  </Web>
+  <hitchDetector>
+    <numTimeSamples>  10  </numTimeSamples>
+    <frameMSLimit>100.0</frameMSLimit>
+    <overAverageFactor>1.5</overAverageFactor>
+  </hitchDetector>
+  <replay>
+    <volatileInjectionPeriodTicks>  5 </volatileInjectionPeriodTicks>
+  </replay>
+  <texture_manager>
+    <allowManagedDefaultPoolTextures> false </allowManagedDefaultPoolTextures>
+  </texture_manager>
+  <enable_reset_handler>  false </enable_reset_handler>
+  <logging>
+    <suppress>
+      <categories>
+      </categories>
+    </suppress>
+    <logToMessageLogger>  false </logToMessageLogger>
+    <uniqueLogPerSession> true  </uniqueLogPerSession>
+    <loggerID>  0 </loggerID>
+    <file>
+      <enabled> false </enabled>
+      <openMode>a</openMode>
+    </file>
+    <file>python.log<enabled> false </enabled><severity>  INFO  </severity><severity>WARNING</severity><severity>ERROR</severity><severity> CRITICAL  </severity><severity> HACK  </severity><source>SCRIPT</source><openMode>a</openMode></file>
+  </logging>
+  <login>
+    <enableSocialLogin> true  </enableSocialLogin>
+  </login>
+  <webBrowser>
+    <processExePath>cef/cef_browser_process.exe</processExePath>
+    <userAgent>BW-Client</userAgent>
+    <cachePath>profile/cef_cache</cachePath>
+    <hardwareAcceleration>  false </hardwareAcceleration>
+    <logFile>cef.log</logFile>
+    <logVerbosity>warning</logVerbosity>
+    <enableFlash> false </enableFlash>
+    <debugPort> -1  </debugPort>
+    <maxFrameRate>  0 </maxFrameRate>
+    <acceptLangList>
+    </acceptLangList>
+    <locale>
+    </locale>
+  </webBrowser>
+</engine_config.xml>
